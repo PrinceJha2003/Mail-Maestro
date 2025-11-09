@@ -1,4 +1,5 @@
-📧 Mail Maestro – Email Management System
+📧 Mail Maestro – Smart  Email  Scheduler  & 
+ Automation Tool
 
 Mail Maestro is a Laravel-based web application that streamlines the process of managing, sending, and tracking emails efficiently.
 It’s built for organizations that need a centralized platform to handle internal and external email communication securely and efficiently.
