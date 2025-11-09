@@ -115,7 +115,8 @@ NLP-based personalized email content generation
 
 Integration with multiple SMTP gateways for load balancing
 
-🧑‍💻 Developed By
+👨‍💻 Author
 
 Prince Jha
-Mail Maestro: Smart Email Scheduler & Automation Tool (2025)
+📍 Delhi, India
+💼 GitHub: @PrinceJha2003
