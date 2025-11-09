@@ -1,0 +1,80 @@
+.table-container {
+    overflow-x: auto;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.table thead {
+    background-color: #343a40;
+    color: #fff;
+    text-align: left;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table th {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.table td a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+
+.table td a.btn-primary {
+    background-color: #212529;
+    border:none;
+}
+
+.table td a.btn-primary:hover {
+    background-color: #00000093;
+}
+
+.table td a i {
+    margin-right: 5px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .table-container {
+        border: none;
+        box-shadow: none;
+    }
+
+    .table th,
+    .table td {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .table td a {
+        font-size: 10px;
+        padding: 3px 6px;
+    }
+}

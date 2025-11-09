@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #343a40;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.form-header {
+    background-color: #343a40;
+    color: rgb(241, 235, 235);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 8px 8px 0 0;
+}
+
+.form-header h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.form-control {
+    border-radius: 6px;
+    padding: 10px 12px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.form-label {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #222425;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #343a40;
+    box-shadow: 0 0 5px #343a40;
+    outline: none;
+}
+
+.container:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .form-header {
+        padding: 15px;
+    }
+
+    .form-header h1 {
+        font-size: 24px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .btn-custom {
+        width: 100%;
+        padding: 12px;
+    }
+}

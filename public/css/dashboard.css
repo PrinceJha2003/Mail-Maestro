@@ -1,0 +1,124 @@
+/* General Reset and Basic Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.container {
+    overflow-x: auto;
+    max-width: 1300px;
+    max-height: 500px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 10px 0px;
+    border: 20px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.styled-select {
+    margin: 0 10px 0 0;
+    width: 30%;
+    padding: 6px;
+    font-size: 16px;
+    border: none;
+    background-color: #f9f9f9;
+    color: #333;
+    appearance: none; /* Remove default dropdown arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.styled-select:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+
+/* Add a custom arrow using a background image */
+.styled-select {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"%3E%3Cpath fill="none" stroke="%23333" stroke-width="2" d="M7 10l5 5 5-5"/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+/* Customize dropdown height */
+.styled-select option {
+    padding: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+table,
+th,
+td {
+    font-size: 13px;
+    border: 1px solid #dee2e6;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f9fa;
+    position: sticky;
+    top: -20px;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e9ecef;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    padding: 10px 15px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.pagination a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    table {
+        font-size: 12px;
+        overflow-x: auto;
+        display: block;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
