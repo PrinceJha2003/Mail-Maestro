@@ -36,8 +36,8 @@ Hosting: Any Laravel-compatible server (e.g., XAMPP, Laragon, or shared hosting)
 
 ⚙️ Installation Guide
 1. Clone the Repository
-git clone https://github.com/yourusername/mail-maestro.git
-cd mail-maestro
+git clone https://github.com/PrinceJha2003/Mail-Maestro.git
+cd Mail-Maestro
 
 2. Install Dependencies
 composer install
